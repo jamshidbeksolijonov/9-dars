@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #16A085;
+}
+.container{
+    border: 1px solid black;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    max-width: 80%;
+    margin: 0 auto;
+    box-shadow: 5px 5px 5px 5px black;
+}
+.container__1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.container__1 img{
+    width: 64px;
+}
+.container__text p{
+    opacity: 50%;
+    text-align: center;
+}
+.container__dollor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container__dollor1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container__total{
+    display: flex;
+    align-items: center;
+    gap: 380px;
+}
+.container__total p{
+    margin-left: 120px;
+}
+.salom-img img{
+    width: 650px;
+    text-align: center;
+    margin-top: -85px;
+}
+.one{
+    opacity: 80%;
+}
